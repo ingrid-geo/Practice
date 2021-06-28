@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="PracticeTests.signInTest" skipped="0" tests="1" time="14.24" timestamp="2021-06-28 04:49:34"><testcase classname="PracticeTests.signInTest" name="Verify if user is redirected to create account page"/></testsuite>
