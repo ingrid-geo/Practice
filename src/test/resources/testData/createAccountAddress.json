@@ -1,0 +1,15 @@
+{
+"firstName": "Hello",
+"lastName": "Kitty",
+"company": "balloons",
+"address1": "str Nordic",
+"address2": "112233",
+"city": "Mexico",
+"state":"DF",
+"zipPostalCode":"050520",
+"country":"MX",
+"additionalInformation":"Columbus",
+"phoneHome":"123456789",
+"mobilePhone":"987654321",
+"assignAnAddressAlias":"45 West Street"
+}

@@ -1,1 +1,16 @@
-/Users/ingrid.pironescu/Desktop/Practice/src/test/java/com/practice/tests/GoToMainPage.java
+/Users/ingrid.pironescu/Desktop/Practice/src/test/java/PracticeTests/ReadAccountPersonalInformation.java
+/Users/ingrid.pironescu/Desktop/Practice/src/test/java/com/practice/pojo/AccountAddress.java
+/Users/ingrid.pironescu/Desktop/Practice/src/test/java/com/practice/steps/NavigationSteps.java
+/Users/ingrid.pironescu/Desktop/Practice/src/test/java/com/practice/steps/CreateAccountSteps.java
+/Users/ingrid.pironescu/Desktop/Practice/src/test/java/com/practice/actions/SignInAction.java
+/Users/ingrid.pironescu/Desktop/Practice/src/test/java/PracticeTests/SignInTest.java
+/Users/ingrid.pironescu/Desktop/Practice/src/test/java/PracticeTests/GoToMainPage.java
+/Users/ingrid.pironescu/Desktop/Practice/src/test/java/com/practice/pages/CreateAccountPersonalInfoPO.java
+/Users/ingrid.pironescu/Desktop/Practice/src/test/java/PracticeTests/ReadAccountAddress.java
+/Users/ingrid.pironescu/Desktop/Practice/src/test/java/com/practice/pages/NavigationPO.java
+/Users/ingrid.pironescu/Desktop/Practice/src/test/java/com/practice/steps/SignInSteps.java
+/Users/ingrid.pironescu/Desktop/Practice/src/test/java/com/practice/pages/SignInPO.java
+/Users/ingrid.pironescu/Desktop/Practice/src/test/java/com/practice/pages/CreateAccountAddressPO.java
+/Users/ingrid.pironescu/Desktop/Practice/src/test/java/PracticeTests/NavigationTests.java
+/Users/ingrid.pironescu/Desktop/Practice/src/test/java/com/practice/pojo/AccountPersonalInformation.java
+/Users/ingrid.pironescu/Desktop/Practice/src/test/java/PracticeTests/BaseTestClass.java

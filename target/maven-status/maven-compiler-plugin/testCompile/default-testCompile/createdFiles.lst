@@ -1,1 +1,16 @@
-com/practice/tests/GoToMainPage.class
+PracticeTests/GoToMainPage.class
+com/practice/pages/NavigationPO.class
+com/practice/steps/NavigationSteps.class
+PracticeTests/BaseTestClass.class
+com/practice/pages/CreateAccountAddressPO.class
+com/practice/pojo/AccountPersonalInformation.class
+com/practice/pojo/AccountAddress.class
+com/practice/steps/SignInSteps.class
+com/practice/pages/SignInPO.class
+com/practice/pages/CreateAccountPersonalInfoPO.class
+com/practice/steps/CreateAccountSteps.class
+PracticeTests/ReadAccountAddress.class
+PracticeTests/ReadAccountPersonalInformation.class
+PracticeTests/SignInTest.class
+PracticeTests/NavigationTests.class
+com/practice/actions/SignInAction.class

@@ -11,7 +11,7 @@ public class BaseTestClass {
     WebDriver driver;
 
     @Steps
-    protected signInSteps signInSteps;
+    protected SignInSteps signInSteps;
 
     @Before
     public void setupTest(){
