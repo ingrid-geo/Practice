@@ -43,5 +43,4 @@ public class CreateAccountSteps extends ScenarioSteps {
         createAccountAction.clickRegisterButton();
 
     }
-
 }

@@ -28,13 +28,13 @@ public class CreateAccountAction {
     }
 
     public void fillAccountPersonalInfo(AccountPersonalInformation personalInformation){
-//        if(personalInformation.getTitleMR() && personalInformation.getTitleMRS()){
-//            System.out.println("Only one can be true");
-//        } else if (personalInformation.getTitleMR()){
-//            createAccountPersonalInfoPO.titleMR.click();
-//        } else {
-//            createAccountPersonalInfoPO.titleMRS.click();
-//        }
+        if(personalInformation.getTitleMR() && personalInformation.getTitleMRS()){
+            System.out.println("Only one can be true");
+        } else if (personalInformation.getTitleMR()){
+            createAccountPersonalInfoPO.titleMR.click();
+        } else {
+            createAccountPersonalInfoPO.titleMRS.click();
+        }
         createAccountPersonalInfoPO.firstName.sendKeys(personalInformation.getFirstName());
         createAccountPersonalInfoPO.lastName.sendKeys(personalInformation.getLastName());
         createAccountPersonalInfoPO.email.sendKeys(personalInformation.getEmail());

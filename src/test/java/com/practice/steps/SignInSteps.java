@@ -14,6 +14,4 @@ public class SignInSteps extends ScenarioSteps {
     public void clickOnCreateAccount(String email){
         signInAction.createAccount(email);
     }
-
-
 }
