@@ -1,5 +1,6 @@
 package PracticeTests;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.gson.*;
 import com.practice.pojo.*;
 import org.junit.*;
@@ -13,9 +14,9 @@ public class ReadAccountPersonalInformation {
 
     public void accountPersonalInformation() {
         try {
-            Gson gson = new Gson();
+            ObjectMapper objectMapper = new ObjectMapper();
             Reader reader = Files.newBufferedReader(Paths.get(System.getProperty("user.dir")+"/src/test/resources/testData/createAccountPersonalInformation.json"));
-            AccountPersonalInformation personalInformation = gson.fromJson(reader, AccountPersonalInformation.class);
+            AccountPersonalInformation personalInformation = objectMapper.readValue(reader, AccountPersonalInformation.class);
             System.out.println(personalInformation);
             reader.close();
 

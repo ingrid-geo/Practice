@@ -10,6 +10,8 @@ import net.thucydides.core.steps.*;
 import java.io.*;
 import java.nio.file.*;
 
+import static com.practice.util.FileUtil.createAAObj;
+
 public class CreateAccountSteps extends ScenarioSteps {
 
     private CreateAccountAddressPO createAccountAddressPO;
@@ -19,24 +21,13 @@ public class CreateAccountSteps extends ScenarioSteps {
     private CreateAccountAction createAccountAction;
 
     @Step ("Fill all Account Address information")
-    public void completeAccountAddress(){
-        try {
-            Gson gson = new Gson();
-            Reader reader = Files.newBufferedReader(Paths.get(System.getProperty("user.dir") + "/src/test/resources/testData/createAccountAddress.json"));
-            AccountAddress accountAddress = gson.fromJson(reader, AccountAddress.class);
-            reader = Files.newBufferedReader(Paths.get(System.getProperty("user.dir")+"/src/test/resources/testData/createAccountPersonalInformation.json"));
-            AccountPersonalInformation personalInformation = gson.fromJson(reader, AccountPersonalInformation.class);
-            reader.close();
-            System.out.println(accountAddress);
-            createAccountAction.fillAccountPersonalInfo(personalInformation);
+    public void completeAccountAddress(String path){
+        AccountAddress accountAddress = createAAObj(path);
+            //createAccountAction.fillAccountPersonalInfo(personalInformation);
             createAccountAction.fillAccountAddress(accountAddress);
-        } catch(
-                Exception ex)
-
-        {
-            ex.printStackTrace();
-        }
     }
+
+
 
     @Step ("Click on Register button")
     public void clickRegisterButton(){

@@ -4,5 +4,6 @@
       "firstName": "Ingrid",
       "lastName": "Geo",
       "email":"ingrid.pironescu@softvision.com",
-      "password": "123456"
+      "password": "123456",
+      "dob": "17-12-1988"
 }
